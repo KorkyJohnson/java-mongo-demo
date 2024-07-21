@@ -4,6 +4,8 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
+This demo is taken from here https://www.mongodb.com/developer/languages/java/quarkus-eclipse-jnosql/
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
@@ -40,7 +42,6 @@ The application, packaged as an _über-jar_, is now runnable using `java -jar ta
 You can create a native executable using:
 
 ```shell script
-./mvnw package -Dnative
 ```
 
 Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
